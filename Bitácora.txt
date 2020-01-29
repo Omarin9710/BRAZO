@@ -1,0 +1,7 @@
+28-01-2020. Puebas de Servomotores:
+		+ Modifiqué la libreria default del servo para giro de 200.
+		+ Mapeo necesario para pasar de grados reales a grados mapeados
+		en 180 por el manejo de la libreria de arduino.
+		angulo libreria = angulo real * (180/200) 
+		+ Prueba de comunicación de proccesing con arduino.
+		
