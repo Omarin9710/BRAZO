@@ -18,7 +18,7 @@
 		+ Un solo servomotor responde bien a la velocidad de comunicación.
 
 
-31-01-2020. Puebas de Servomotores e Interfaz:
+31-01-2020. Puebas de un Servomotor e Interfaz:
 		+ La libreria tiene funciones gráficas sencillas y útiles,
 		  deslizadores lineales y giratorios, me decido a un giratorio
 		  para representar el movimiento de la base, un lineal vertical
@@ -26,5 +26,10 @@
       		  un lineal horizontal para el movimiento de la pinza.
 		+ Primera version de la interfaz realizada.
 		+ Pruebas de velocidad de comunicación y de seguimiento para el
-		  manejo continuo de los servomotores (que se vea en "tiempo real").
+		  manejo continuo de un servomotores (que se vea en "tiempo real")
+
+
+01-02-2020. Puebas de Servomotores e Interfaz:
+		+ Pruebas de velocidad de comunicación y de seguimiento para el
+		  manejo continuo de los tres servomotores (nuevo ajuste).
 		+ Integración de los 3 servos con una fuente de alimentación externa.
