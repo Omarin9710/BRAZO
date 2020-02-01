@@ -1,7 +1,30 @@
 28-01-2020. Puebas de Servomotores:
 		+ Modifiqué la libreria default del servo para giro de 200.
+                  Pruebas de valores finales de tiempo experimentales, hasta que
+		  no suene forzado el servomotor en sus valores límite.
 		+ Mapeo necesario para pasar de grados reales a grados mapeados
-		en 180 por el manejo de la libreria de arduino.
-		angulo libreria = angulo real * (180/200) 
-		+ Prueba de comunicación de proccesing con arduino.
-		
+		  en 180 por el manejo de la libreria de arduino.
+		  angulo libreria = angulo real * (180/200) 
+		+ Prueba de comunicación de proccesing con arduino, envio de 
+		  caracteres ASCII para verificar lectura y mover servo.
+
+29-01-2020. Puebas de un Servomotor y comunicación:
+		+ Descargué una libreria de procesamiento gráfico para processing.
+		  Ejemplos de sliders mas faciles y visualmente llamativos.
+		+ La comunicación de processing con arduino se vuelve inestable
+		  ya que arduino no soporta la velocidad a la que envia los datos,
+      		  procedí a hacer un "divisor de frecuencia" con un contador,
+		  ahora hace un envio cada 10 bucles. (10 valor aceptable).
+		+ Un solo servomotor responde bien a la velocidad de comunicación.
+
+
+31-01-2020. Puebas de Servomotores e Interfaz:
+		+ La libreria tiene funciones gráficas sencillas y útiles,
+		  deslizadores lineales y giratorios, me decido a un giratorio
+		  para representar el movimiento de la base, un lineal vertical
+		  con una funcionalidad de Ticks(Marcas para movimientos fijos) y
+      		  un lineal horizontal para el movimiento de la pinza.
+		+ Primera version de la interfaz realizada.
+		+ Pruebas de velocidad de comunicación y de seguimiento para el
+		  manejo continuo de los servomotores (que se vea en "tiempo real").
+		+ Integración de los 3 servos con una fuente de alimentación externa.
