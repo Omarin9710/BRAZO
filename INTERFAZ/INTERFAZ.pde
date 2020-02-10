@@ -84,9 +84,9 @@ void setup() {
                .setValue(128)
                ;
             
-  // reposition the Label for controller 'Pinza'
-//  cp5.getController("Pinza").getValueLabel().align(ControlP5.LEFT, ControlP5.BOTTOM_OUTSIDE).setPaddingX(0);
-//  cp5.getController("Pinza").getCaptionLabel().align(ControlP5.RIGHT, ControlP5.BOTTOM_OUTSIDE).setPaddingX(0);
+   //reposition the Label for controller 'Pinza'
+  cp5.getController("Pinza").getValueLabel().align(ControlP5.LEFT, ControlP5.BOTTOM_OUTSIDE).setPaddingX(0);
+  cp5.getController("Pinza").getCaptionLabel().align(ControlP5.RIGHT, ControlP5.BOTTOM_OUTSIDE).setPaddingX(0);
   
 }
 

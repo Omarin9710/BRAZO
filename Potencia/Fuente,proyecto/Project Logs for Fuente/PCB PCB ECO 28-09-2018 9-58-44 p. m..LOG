@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=TBlock1 NewDesignator=TerminalBlock1
+Change Component Designator: OldDesignator=U1 NewDesignator=L7812
+Change Component Designator: OldDesignator=U2 NewDesignator=L7805
+Change Class Name : Old Net Name=U1_Nets New Net Name=L7812_Nets
+Change Class Name : Old Net Name=U2_Nets New Net Name=L7805_Nets

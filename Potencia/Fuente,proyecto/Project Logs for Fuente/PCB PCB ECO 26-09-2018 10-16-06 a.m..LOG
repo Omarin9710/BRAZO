@@ -1,0 +1,43 @@
+Change Component Designator: OldDesignator=TerminalBlock NewDesignator=TerminalBlock1
+Added Component: Designator=C1(RB7.6-15)
+Added Component: Designator=C2(RB7.6-15)
+Added Component: Designator=C3(RB7.6-15)
+Added Component: Designator=CR1(D-44)
+Added Component: Designator=P1(HDR1X3)
+Added Component: Designator=U1(TO220ABN)
+Added Component: Designator=U2(TO220ABN)
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=5V Pin=P1-2
+Added Pin To Net: NetName=5V Pin=U2-2
+Added Net: Name=5V
+Added Pin To Net: NetName=12V Pin=C3-1
+Added Pin To Net: NetName=12V Pin=P1-1
+Added Pin To Net: NetName=12V Pin=U1-2
+Added Pin To Net: NetName=12V Pin=U2-1
+Added Net: Name=12V
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=CR1-4
+Added Pin To Net: NetName=GND Pin=P1-3
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=CR1-1
+Added Pin To Net: NetName=NetC2_1 Pin=U1-1
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetCR1_2 Pin=CR1-2
+Added Pin To Net: NetName=NetCR1_2 Pin=TerminalBlock1-1
+Added Net: Name=NetCR1_2
+Added Pin To Net: NetName=NetCR1_3 Pin=CR1-3
+Added Pin To Net: NetName=NetCR1_3 Pin=TerminalBlock1-2
+Added Net: Name=NetCR1_3
+Added Member To Class: ClassName=Esquematico Member=Component C1 Cap Pol1
+Added Member To Class: ClassName=Esquematico Member=Component C2 Cap Pol1
+Added Member To Class: ClassName=Esquematico Member=Component C3 Cap Pol1
+Added Member To Class: ClassName=Esquematico Member=Component CR1 2KBP02
+Added Member To Class: ClassName=Esquematico Member=Component P1 Header 3
+Added Member To Class: ClassName=Esquematico Member=Component U1 L7812ACV
+Added Member To Class: ClassName=Esquematico Member=Component U2 L7805ACV
+Added Room: Name=Esquematico

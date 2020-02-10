@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Pin From Net: NetName=GND Pin=L7805-3
+Removed Pin From Net: NetName=GND Pin=P1-3
+Removed Member From Class: ClassName=TerminalBlock1_Nets Member=GND
+Removed Member From Class: ClassName=C1_Nets Member=NetC1_2
+Removed Member From Class: ClassName=C2_Nets Member=NetC1_2
+Removed Member From Class: ClassName=CR1_Nets Member=NetC1_2
+Removed Member From Class: ClassName=L7812_Nets Member=NetC1_2
+Added Pin To Net: NetName=NetC1_2 Pin=C3-2
+Added Pin To Net: NetName=NetC1_2 Pin=C4-2
+Added Pin To Net: NetName=NetC1_2 Pin=L7805-3
+Added Pin To Net: NetName=NetC1_2 Pin=P1-3
+Change Net Name : Old Net Name=GND New Net Name=NetCR1_2
+Change Net Name : Old Net Name=NetC1_2 New Net Name=GND
+Added Member To Class: ClassName=C1_Nets Member=Wire GND
+Added Member To Class: ClassName=C2_Nets Member=Wire GND
+Added Member To Class: ClassName=L7812_Nets Member=Wire GND
+Added Member To Class: ClassName=CR1_Nets Member=Wire NetCR1_2
+Added Member To Class: ClassName=TerminalBlock1_Nets Member=Wire NetCR1_2

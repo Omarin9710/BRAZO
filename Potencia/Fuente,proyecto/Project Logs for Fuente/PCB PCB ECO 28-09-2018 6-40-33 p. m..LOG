@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=NetC2_1 Pin=CR1-1
+Removed Pin From Net: NetName=GND Pin=CR1-4
+Removed Pin From Net: NetName=NetCR1_3 Pin=TerminalBlock1-2
+Change Component DesignItemId : Designator=CR1 Old DesignItemId=2KBP02 New DesignItemId=1KAB10E
+Change Component Comment : Designator=CR1 Old Comment=2KBP02 New Comment=1KAB10E
+Change Component Description : Designator=CR1 Old Description=2 Amp Single Phase Rectifier Bridge New Description=1.2 Amp Rectifier Bridge
+Change Component Library : Designator=CR1 Old Library=IR Rectifier - Bridge.IntLib New Library=IR Rectifier - Bridge.SchLib
+Change component parameters: Designator = "CR1"; Footprint = "D-37"; UniqueID = "\AYLFVNMK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.irf.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.irf.com/product-info/datasheets/data/1kab-e.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "E2732B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Bridge Rectifier; 4 Terminals; Body 9.4 x 9.4 mm (typ); Pitch 5.08 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "D-38"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=CR1-2
+Added Pin To Net: NetName=NetC2_1 Pin=CR1-4
+Added Pin To Net: NetName=NetCR1_3 Pin=TerminalBlock1-1
+Added Pin To Net: NetName=NetCR1_1 Pin=CR1-1
+Added Pin To Net: NetName=NetCR1_1 Pin=TerminalBlock1-2
+Added Net: Name=NetCR1_1

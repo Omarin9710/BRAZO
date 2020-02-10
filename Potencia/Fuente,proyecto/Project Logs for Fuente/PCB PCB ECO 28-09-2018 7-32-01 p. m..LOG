@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=C2 Old Footprint=RB7.6-15 New Footprint=CAPPRD200W50D500HXXX-V
+Change Component Footprint: Designator=C4 Old Footprint=RB7.6-15 New Footprint=CAPPRD200W50D500HXXX-V
+Added Member To Class: ClassName=Esquematico Member=Component C3 Cap Pol1

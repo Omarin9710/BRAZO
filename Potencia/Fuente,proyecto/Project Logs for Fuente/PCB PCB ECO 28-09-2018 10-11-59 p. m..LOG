@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetC1_1 Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Member From Class: ClassName=Esquematico Member=C3
+Removed Member From Class: ClassName=C1_Nets Member=NetCR1_2
+Removed Member From Class: ClassName=C2_Nets Member=NetCR1_2
+Removed Member From Class: ClassName=C4_Nets Member=NetCR1_2
+Removed Member From Class: ClassName=L7805_Nets Member=NetCR1_2
+Removed Member From Class: ClassName=L7812_Nets Member=NetCR1_2
+Removed Member From Class: ClassName=P1_Nets Member=NetCR1_2
+Added Member To Class: ClassName=C1_Nets Member=Wire GND
+Added Member To Class: ClassName=C2_Nets Member=Wire GND
+Added Member To Class: ClassName=C4_Nets Member=Wire GND
+Added Member To Class: ClassName=CR1_Nets Member=Wire GND
+Added Member To Class: ClassName=L7805_Nets Member=Wire GND
+Added Member To Class: ClassName=L7812_Nets Member=Wire GND
+Added Member To Class: ClassName=P1_Nets Member=Wire GND
